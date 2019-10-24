@@ -6,9 +6,9 @@ public class Array {
 
     public static void reversedArray(int[] array) {
         String result = "";
-        for (int i = 0; i < array.length*2-1; i++) {
-            int a = array[Math.abs(array.length - 1 - i)];
-            if (array.length - 1 - i == 0) {
+        for (int i = 0; i < 2*array.length -1; i++) {
+            int a = array[array.length-1-Math.abs(array.length - 1 - i)];
+            if (array.length-Math.abs(array.length - 1 - i) == array.length) {
                 result = result + " " + a + " " + a;
             } else
                 result = result + " " + a;
