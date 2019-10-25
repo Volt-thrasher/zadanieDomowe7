@@ -1,13 +1,13 @@
 package calendar;
 
 public class CalendarConverter {
-    final int MONDAY = 1;
-    final int TUESDAY = 2;
-    final int WEDNESDAY = 3;
-    final int THURSDAY = 4;
-    final int FRIDAY = 5;
-    final int SATURDAY = 6;
-    final int SUNDAY = 7;
+    static final int MONDAY = 1;
+    static final int TUESDAY = 2;
+    static final int WEDNESDAY = 3;
+    static final int THURSDAY = 4;
+    static final int FRIDAY = 5;
+    static final int SATURDAY = 6;
+    static final int SUNDAY = 7;
 
     public static String convertDayToString(int dayNumber){
         switch (dayNumber){
