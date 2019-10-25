@@ -29,7 +29,7 @@ public class ArraysComparator {
                                 break;
                             }
                         }
-                    }
+                    }else result=false;
             }
         } else result = false;
 
