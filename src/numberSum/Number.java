@@ -9,7 +9,7 @@ public class Number {
             sum += (num % Math.pow(10, i) / Math.pow(10, i - 1)); //do sumy dodaje reszte od dzielenia liczby
                                             // przez 10^i, ktora dzielimy przez potege 10 o 1 mniejsza
                                             // zeby odciac cala koncowke. W wyniku zostaje jedna cyfra okreslajaca
-                                            // liczbe danej potegi 10 
+                                            // liczbe danej potegi 10
         }
         return sum;
     }

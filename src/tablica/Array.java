@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Array {
 
-    public static void reversedArray(int[] array) {
+    static void reversedArray(int[] array) {
         String result = "";
         for (int i = 0; i < 2*array.length -1; i++) {
             int a = array[array.length-1-Math.abs(array.length - 1 - i)];
@@ -22,7 +22,7 @@ public class Array {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
         }
-        Array.reversedArray(array);
+        reversedArray(array);
     }
 
 
