@@ -9,8 +9,8 @@ public class ArraysTest {
 
         int[][] array11 = new int[2][3];
         int[][] array22 = new int[2][3];
-        array11[0]= new int[]{1, 3, 3};
-        array11[1]= new int[]{3,4,6};
+        array11[0]= new int[]{1,2, 3};
+        array11[1]= new int[]{3,3,6};
         array22[0]= new int[]{1, 2, 3};
         array22[1]= new int[]{3,4,6};
         System.out.println(ArraysComparator.compare(array11,array22));
